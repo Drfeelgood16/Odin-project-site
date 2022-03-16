@@ -2,4 +2,25 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin-left: 128px;
+    margin-right: 128px;
+    font-family: Roboto;
+}
+li {
+    list-style: none;
+}
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;   
+}
+.header ul {
+    display: flex;
+    gap: 8px;
+}
+.header h1 {
+    flex: 1;
+}
+.hero-container {
+    display: flex;
 }
