@@ -6,8 +6,8 @@ body {
     margin: 0px;
 }
 body > div {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 li {
     list-style: none;
@@ -62,11 +62,11 @@ li {
 .hero-image {
     flex: 1;
 }
-.hero-image img{
+.hero-image img {
     width: 100%;
     height: auto;
 }
-.top-container{
+.top-container {
     flex-direction: column;
     flex: 1;
 }
@@ -79,4 +79,19 @@ li {
 .card-container {
     display: flex;
     justify-content: space-around;
+}
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #e5e7eb;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
 }
