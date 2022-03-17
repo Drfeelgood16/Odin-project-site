@@ -44,7 +44,7 @@ li {
     font-weight: 800;
     color: #f9faf8
 }
-.hero-text button {
+button {
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
@@ -94,4 +94,11 @@ li {
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
+}
+.CalltoAction {
+    background-color: #3882f6;
+}
+.CalltoAction button {
+    border: solid;
+    border-color: #f9faf8;
 }
