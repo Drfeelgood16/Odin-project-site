@@ -66,3 +66,17 @@ li {
     width: 100%;
     height: auto;
 }
+.top-container{
+    flex-direction: column;
+    flex: 1;
+}
+.top-container h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
