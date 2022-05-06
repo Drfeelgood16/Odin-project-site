@@ -115,7 +115,21 @@ button {
     padding-right: 2%;
 }
 .CalltoAction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CalltoAction > div {
     background-color: #3882f6;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #f9faf8; 
 }
 .CalltoAction button {
     border: solid;
