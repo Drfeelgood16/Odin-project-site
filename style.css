@@ -135,3 +135,11 @@ button {
     border: solid;
     border-color: #f9faf8;
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937;
+    height: 64px;
+    color:#f9faf8;
+}
